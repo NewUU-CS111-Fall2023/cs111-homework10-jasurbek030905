@@ -4,7 +4,7 @@ using namspace std;
 enum State {
     q0, q1, q2, q3, HALT
 };
-void unaryAddition(std::vector<int>& tape) {
+void unaryAddition(vector<int>& tape) {
     State currentState = q0;
     int head = 0;
     while (currentState != HALT) {
